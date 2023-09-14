@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins';
+}
+nav ul li {
+display: inline;
+padding-right: 15px;
+}
+.logo {
+display: flex;
+align-items: center;
+margin-left: 300px;
+font-size: 25px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container{
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    background-color: #fea50096;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+h5{
+    margin-left: 100px;
+}
+
+.web-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 120px;
+    padding-bottom:10px;
+    text-shadow: #6f5d5d 3px 3px 3px;
+    font-family: 'Poppins';
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 20px;
+}
+.text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-dark{
+    background-color: #232323;
+    color: #fff;
+}
+.section-title{
+    font-size: 40px;
+    margin-left: 200px;
+}
+.section-header{
+    font-size: 15px;
+    margin-left: 200px;
+}
+.section-content{
+    font-size: 15px;
+    margin-left: 200px;
+}
+.cards{
+    margin-left: 200px;
+}
+.image-content{
+    /* margin-top: 500px; */
+    width: 600px;
+    height: 600px;
+}
+.neechewala1{
+    text-decoration: underline;
+    font-size: 12px;
+}
+.neechewala2{
+    text-decoration: underline;
+    font-size: 12px;
+}
+.neechewala3{
+    text-decoration: underline;
+    font-size: 12px;
+}
